@@ -1,0 +1,8 @@
+#[link(name = "helloworld", vers = "0.1", author = "tabi", uuid = "B20F5C23-A669-480A-93E3-A87B50111D9F")];
+#[crate_type = "lib"];
+
+use std;
+
+mod hello;
+mod world;
+mod helloworld;
